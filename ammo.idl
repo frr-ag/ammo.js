@@ -863,6 +863,11 @@ interface btActionInterface {
     void updateAction (btCollisionWorld collisionWorld, float deltaTimeStep);
 };
 
+interface btKinematicClosestNotMeRayResultCallback {
+  void btKinematicClosestNotMeRayResultCallback(btCollisionObject me);
+};
+btKinematicClosestNotMeRayResultCallback implements ClosestRayResultCallback;
+
 interface btKinematicCharacterController {
   void btKinematicCharacterController(btPairCachingGhostObject ghostObject, btConvexShape convexShape, float stepHeight, optional long upAxis);
 

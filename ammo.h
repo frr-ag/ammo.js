@@ -4,6 +4,7 @@
 #include "BulletCollision/CollisionShapes/btHeightfieldTerrainShape.h"
 #include "BulletCollision/CollisionShapes/btShapeHull.h"
 #include "BulletDynamics/Character/btKinematicCharacterController.h"
+#include "BulletDynamics/Character/btKinematicCharacterController.cpp"
 #include "BulletSoftBody/btDefaultSoftBodySolver.h"
 #include "BulletSoftBody/btSoftBody.h"
 #include "BulletSoftBody/btSoftBodyHelpers.h"
